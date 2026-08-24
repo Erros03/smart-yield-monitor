@@ -1,0 +1,124 @@
+{
+  "__collections__": {
+    "detections": {
+      "healthy-01": {
+        "label": "Healthy",
+        "confidence": 94,
+        "action": "Accepted",
+        "diameterMm": 61,
+        "size": "Medium",
+        "ripeness": "Ripe",
+        "timestamp": 1756000000000,
+        "__collections__": {}
+      },
+      "healthy-02": {
+        "label": "Healthy",
+        "confidence": 91,
+        "action": "Accepted",
+        "diameterMm": 58,
+        "size": "Medium",
+        "ripeness": "Ripe",
+        "timestamp": 1756000002600,
+        "__collections__": {}
+      },
+      "early-blight-01": {
+        "label": "Early Blight",
+        "confidence": 89,
+        "action": "Rejected",
+        "diameterMm": 45,
+        "size": "Small",
+        "ripeness": "Unripe",
+        "timestamp": 1756000005200,
+        "__collections__": {}
+      },
+      "healthy-03": {
+        "label": "Healthy",
+        "confidence": 96,
+        "action": "Accepted",
+        "diameterMm": 72,
+        "size": "Large",
+        "ripeness": "Ripe",
+        "timestamp": 1756000007800,
+        "__collections__": {}
+      },
+      "late-blight-01": {
+        "label": "Late Blight",
+        "confidence": 87,
+        "action": "Rejected",
+        "diameterMm": 49,
+        "size": "Small",
+        "ripeness": "Ripe",
+        "timestamp": 1756000010400,
+        "__collections__": {}
+      },
+      "healthy-04": {
+        "label": "Healthy",
+        "confidence": 92,
+        "action": "Accepted",
+        "diameterMm": 64,
+        "size": "Medium",
+        "ripeness": "Unripe",
+        "timestamp": 1756000013000,
+        "__collections__": {}
+      },
+      "early-blight-02": {
+        "label": "Early Blight",
+        "confidence": 85,
+        "action": "Rejected",
+        "diameterMm": 55,
+        "size": "Medium",
+        "ripeness": "Ripe",
+        "timestamp": 1756000015600,
+        "__collections__": {}
+      },
+      "healthy-05": {
+        "label": "Healthy",
+        "confidence": 93,
+        "action": "Accepted",
+        "diameterMm": 67,
+        "size": "Medium",
+        "ripeness": "Ripe",
+        "timestamp": 1756000018200,
+        "__collections__": {}
+      }
+    },
+    "hardware": {
+      "camera": {
+        "name": "YOLO Vision Camera",
+        "detail": "Laptop webcam · 30 FPS inference",
+        "state": "online",
+        "__collections__": {}
+      },
+      "arduino": {
+        "name": "Arduino Uno",
+        "detail": "Serial COM3 · 9600 baud",
+        "state": "online",
+        "__collections__": {}
+      },
+      "conveyor": {
+        "name": "Conveyor Belt",
+        "detail": "Motor driver · 0.4 m/s",
+        "state": "online",
+        "__collections__": {}
+      },
+      "servo": {
+        "name": "Servo Motor (Sorter)",
+        "detail": "Reject gate · 0°/90°",
+        "state": "standby",
+        "__collections__": {}
+      },
+      "sensors": {
+        "name": "Proximity Sensors",
+        "detail": "IR pair · entry & exit",
+        "state": "online",
+        "__collections__": {}
+      },
+      "power": {
+        "name": "Power Supply",
+        "detail": "12V 5A regulated",
+        "state": "online",
+        "__collections__": {}
+      }
+    }
+  }
+}
